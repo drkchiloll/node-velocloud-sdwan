@@ -1,0 +1,6 @@
+.idea
+node_modules
+dist
+/tests/*config*
+!(tsconfig.json)
+.DS_Store

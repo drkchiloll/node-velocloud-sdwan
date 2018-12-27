@@ -1,0 +1,31 @@
+{
+  "name": "node-velocloud-sdwan",
+  "version": "1.0.0",
+  "description": "Javascript Wrapper for the Velocloud SDWAN API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "node_modules/.bin/tsc",
+    "dev": "node_modules/.bin/tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "library"
+  ],
+  "author": "Sam Womack",
+  "email": "sam.womack@entropicos.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.24",
+    "@types/node": "^10.12.7",
+    "@types/ssh2": "^0.5.37",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "form-data": "^2.3.3",
+    "ssh2": "^0.6.1"
+  }
+}
