@@ -1,4 +1,4 @@
-# Velocloud SDWAN (Viptela) REST API Wrapper
+# Velocloud SDWAN REST API Wrapper
 
 ### Install
 
