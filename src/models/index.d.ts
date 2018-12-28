@@ -3984,8 +3984,7 @@ export interface NetworkGetNetworkConfigurationsResultItem {
 }
 export interface NetworkGetNetworkEnterprisesResultItem {
   id?: number;
-  created?: string; // date-time
-  networkId?: number;
+  created?: string; // date-timeu)
   gatewayPoolId?: number;
   alertsEnabled?: boolean;
   operatorAlertsEnabled?: boolean;
